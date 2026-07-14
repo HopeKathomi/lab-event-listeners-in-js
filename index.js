@@ -11,7 +11,7 @@ function changeBackgroundColor() {
 // Function to reset the background color when the body is double-clicked
 function resetBackgroundColor() {
   // Implement the function to reset background color
-    document.querySelector("body").style.background = "white";
+    document.querySelector("body").style.background = "";
 }
 // resetBackgroundColor()
 
@@ -31,6 +31,7 @@ function displayKeyPress(event) {
 // Function to display user input in real-time
 function displayUserInput() {
   // Implement the function to display user input
+  
 }
 
 // Attach Event Listeners
