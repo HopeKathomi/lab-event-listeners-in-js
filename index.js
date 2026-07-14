@@ -4,7 +4,7 @@
 function changeBackgroundColor() {
   // Implement the function to change background color
     // event.stopPropagation();
-    document.body.style.backgroundColor = "blue";
+    document.body.style.backgroundColor = "rgb(54, 200, 119)";
   
 }
 // changeBackgroundColor()
