@@ -3,7 +3,7 @@
 // Function to change the background color when a button is clicked
 function changeBackgroundColor() {
   // Implement the function to change background color
-    event.stopPropagation();
+    // event.stopPropagation();
     document.body.style.backgroundColor = "blue";
   
 }
@@ -22,6 +22,7 @@ function displayKeyPress(event) {
   // Implement the function to display key pressed
   
     document.querySelector("#textInputDisplay").textContent = event.key;
+
 
 }
 // document.addEventListener("keydown", displayKeyPress);
