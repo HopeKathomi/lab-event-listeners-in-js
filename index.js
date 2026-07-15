@@ -32,7 +32,7 @@ function displayKeyPress(event) {
 // Function to display user input in real-time
 function displayUserInput() {
   // Implement the function to display user input
-  document.querySelector("#textInputDisplay").textContent = `You typed: ${event.target.value}`;
+  document.querySelector("#textInputDisplay").textContent = `You typed: ${event.value}`;
 }
 
 // Attach Event Listeners
