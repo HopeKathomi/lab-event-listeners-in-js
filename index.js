@@ -21,7 +21,7 @@ function resetBackgroundColor() {
 function displayKeyPress(event) {
   // Implement the function to display key pressed
   
-    document.querySelector("#textInputDisplay").textContent = event.key;
+    document.querySelector("#keyPressDisplay").textContent = event.key;
 
 
 }
